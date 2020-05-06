@@ -59,7 +59,7 @@
     btnGo.onclick = function() {
       const text = txtURL.value.trim()
       if (text) {
-        const url = './-----' + text
+        const url = './JXU4QkY3JXU1MkEwJXU1MTY1UVEldTdGQTQldTY1MkYldTYzMDEldTY3MkMldTdGQTEldTYxNTUvJXU2MTFGJXU4QzIyJXU2MEE4JXU3Njg0JXU0RjdGJXU3NTI4LyV1OEJGNyV1NTJGRiV1NTcyOCV1OEZERCV1ODlDNCV1NTczMCV1NTMzQSV1NEY3RiV1NzUyOCV1NjcyQyV1OTg3OSV1NzZFRS8ldThCRjcldTkwNzUldTVCODgldTVGNTMldTU3MzAldTZDRDUldTVGOEIldTdCNDk=' + text
         open(url, '_blank', 'noopener,noreferrer')
       }
     }
@@ -132,7 +132,7 @@
         let [id, url] = v
         url = url || `www.${id}.com/`
         return `\
-<a rel="noopener noreferrer" href=./-----https://${url}>\
+<a rel="noopener noreferrer" href=./JXU4QkY3JXU1MkEwJXU1MTY1UVEldTdGQTQldTY1MkYldTYzMDEldTY3MkMldTdGQTEldTYxNTUvJXU2MTFGJXU4QzIyJXU2MEE4JXU3Njg0JXU0RjdGJXU3NTI4LyV1OEJGNyV1NTJGRiV1NTcyOCV1OEZERCV1ODlDNCV1NTczMCV1NTMzQSV1NEY3RiV1NzUyOCV1NjcyQyV1OTg3OSV1NzZFRS8ldThCRjcldTkwNzUldTVCODgldTVGNTMldTU3MzAldTZDRDUldTVGOEIldTdCNDk=https://${url}>\
 <img width=128 height=128 src=__sys__/assets/ico/${id}.png></a>`
       }).join('')
     }
