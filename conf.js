@@ -68,7 +68,7 @@ jsproxy_config({
   // assets_cdn: 'https://cdn.jsdelivr.net/gh/zjcqoo/zjcqoo.github.io@master/assets/',
 
   // 本地测试时打开，否则访问的是线上的
-  assets_cdn: 'assets/',
+  assets_cdn: 'https://cdn.jsdelivr.net/gh/closted/closted.github.io@master/assets/',
 
   // 首页路径
   index_path: 'index_v3.html',
@@ -92,7 +92,7 @@ jsproxy_config({
       redir: 'https://php.net/'
     },
     'http://haha.com/': {
-      content: 'Hello World'
+      content: '格式有误请重新输入！格式应为-https://youtu.be/XXX的分享链接'
     },
   }
 })
