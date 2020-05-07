@@ -71,7 +71,7 @@ jsproxy_config({
   assets_cdn: 'assets/',
 
   // 首页路径
-  index_path: 'index_v.html',
+  index_path: 'https://s.fqjh.cf/',
 
   // 支持 CORS 的站点列表（实验中...）
   direct_host_list: 'cors_v1.txt',
